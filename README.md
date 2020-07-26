@@ -10,3 +10,6 @@ to burn you.  It was not hot enough to melt my temporary breadboard or the wires
 
 As mentioned in the code, A0 on the NodeMCU has a built in voltage divider of 100k:220k ohms.  This enables you to simply jumper from A0 to the battery in with a 220k 
 resistor (for li-ion) which creates a 100k:440k voltage divider, which is a ratio of 1:5.4 
+
+In case the search function checks the readme for codewords, here're some:
+NodeMCU, ESP12, ESP-12, ESP12E, ESP-12E, ESP8266, Battery Management System, Balance, lithium, pack
