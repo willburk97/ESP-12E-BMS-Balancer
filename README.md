@@ -19,3 +19,10 @@ This code was used before I added the staleData code you'll see in the ESP12 cod
 disconnected from the internet, this ESP will attempt to drain it's battery down to that last known voltage...ignoring the fact that the last known voltage could be very
 very old.  This is handy for testing and/or forcing a single cell to a certain voltage but not ideal for regular use or as a reliable BMS. (Basically, I think the staleData
 code is important, I just never implemented it in the ESP32 code.)
+
+Added Schematic and Board layouts for two different ESP-12E BMS styles. One with the LM3671 from Adafruit and one without.  It can be used without the Adafruit board, but
+somewhere around 3.0v the ESP-12E will turn off because of the inherent voltage drop across the LDO voltage regulator. The 'Low Voltage' version uses the Adafruit buck
+converter, the other does not.  
+
+I haven NOT double checked the schematic for accuracy nor have I printed the PCB to test it out.  Please sanity check them both before use.
+I used Autodesk Eagle for the schematic and board layout.
